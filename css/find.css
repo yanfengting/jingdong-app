@@ -1,0 +1,214 @@
+body{
+    padding: 0;
+	background-color:#f7f7f7;
+}
+.wx_wrap{
+    width: 540px;
+    height: 1600px;
+    /* display: none; */
+    /* border:1px solid darkblue; */
+    background: #f7f7f7;
+}
+/* 分类列表框 */
+.md-tab{
+    width: 540px;
+    margin: 0 auto;
+    position: relative;
+    height: 58px;
+    overflow: hidden;
+    white-space: nowrap;
+    background-color: rgb(255, 255, 255);
+}
+.md-tab_item{
+    width: 20%;
+    height: 58px;
+    float: left;
+    /* border: rgb(255, 0, 119) 1px solid; */
+}
+.md-tab_item img{
+    width: 18px;
+    height: 18px;
+    display: block;
+    margin: 10px auto 4px;
+}
+.md-tab_item div{
+    text-align: center;
+    font-size: 12px;
+}
+.md1{
+    background: -webkit-linear-gradient(left,#e93b3d,#ff9574);
+}
+
+/* 早起打卡 */
+.md-checkin {
+    position: fixed;
+    right: 10px;
+    top: 115px;
+    z-index: 101;
+}
+.md-checkin img{
+    width: 72px;
+} 
+
+/* 轮播图 */
+.md-banner{
+    width: 540px;
+    height: 212px;
+}
+.md-banner img{
+    width: 540px;
+    height: 212px;
+}
+
+#md-ul{
+    margin: 0;
+    width: 70px;
+    position: relative;
+    top: -30px;
+    left: 220px;
+}
+.item{
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    border: white 1px solid;
+    border: none;
+    /* background-color:rgb(211, 151, 151); */
+}
+.md-list{
+    width: 540px;
+    height: 1500px;
+    padding: 0 15px;
+}
+
+/* 主妇购物车 */
+.type-s{
+    margin-top: 14px;
+    display: block;
+    width: 510px;
+    height: 120px;
+    background-color: #fff;
+    display: flex;    
+    color: #333;
+}
+.type-s:hover{
+    text-decoration: none;
+}
+
+.md_tit{
+    width: 510px;
+    height: 119px;
+}
+.md_pics {
+    width: 170px;
+    height: 119px;
+}
+.md_pics img{
+    width: 170px;
+    height: auto;
+}
+.md_tit_title{
+    height: auto;
+    line-height: 24px;
+    white-space: normal;
+    padding: 10px 15px;
+    font-size: 16px;
+}
+.md_tit_detail{
+    height: 40px;
+    line-height: 40px;
+    align-items: flex-end;
+    margin-top: 35px;
+    font-size: 12px;
+    color: #999;
+}
+.md_tit_user{
+    width: 80px;
+    height: 40px;
+    float: left;
+    margin-left: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.md_tit_user img{
+    width: 25px;
+    height: 25px;
+}
+.md_tit_user1{
+    width: 100px;
+    height: 40px;
+    float: left;
+    overflow: hidden;
+    margin-left: 15px;
+}
+.md_tit_user1 img{
+    width: 25px;
+    height: 25px;
+}
+.md_tit_view{
+    width: 80px;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+}
+/* 美容黑科技 */
+.md-list-item{
+    margin-top: 15px;
+    width: 510px;
+    height: 370px;
+    background-color: #fff;
+    display: block;    
+    color: #333;
+}
+.md-list-item:hover{
+    text-decoration: none;
+}
+
+.md_tit_detail1{
+    height: 50px;
+    line-height: 40px;
+    background-color: #fff;
+    position: relative;
+    top: -30px;
+    font-size: 12px;
+    color: #999;
+}
+.md-img{
+    width: 510px;
+    height: 300px;
+}
+/* 底部菜单 */
+#menu{
+    width: 100%;
+    overflow: hidden;
+    height: 44px;
+    background-color: white;
+    position: fixed;
+    bottom:0;
+    box-shadow: 0 0 10px 0 hsla(0,6%,58%,.6);
+}
+#menu a{
+    float: left;
+}
+.J_ping{
+    width: 20%;
+    /* border: rgb(255, 0, 119) 1px solid; */
+}
+.icon_center img{
+    height: 44px;
+    width: 72px;
+}
+
+/* 回到顶部 */
+#goTop{
+    width: 35px;
+    height: 35px;
+    position: fixed;
+    right: 0px;
+    bottom: 65px;  
+    background-color: #474646;
+    border-radius: 3px 0 0 3px;
+    /* display:none;     */
+}

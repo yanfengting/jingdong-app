@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    text-align: center;
+    line-height: 1.5;
+    color: #333;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* 顶部搜索框  */
+#header{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    background: #f9f9f9;
+    color: #616161;
+    font-size: 17px;
+    border-bottom: 1px solid #bbb;
+    z-index: 999;
+}
+#msBtn1{
+    display: inline-block;
+    float: left;
+    width: 40px;
+    height: 40px;
+    /* border: 1px #eeeeee solid; */
+}
+#msBtn1 img{
+    width: 25px;
+    height: 25px;
+    margin: 8px 8px;
+}
+.txt-header{
+    position: relative;
+    left:-20px;
+}
+/* 账号  短信登录 */
+.page{
+    width: 100%;
+}
+.login_tab{
+    line-height: 44px;
+    font-size: 14px;   
+    border-bottom: 1px solid #d7d7d7;    
+}
+.username-login{
+    width: 50%;
+    display: inline-block;
+    float: left;
+}
+.sms-login{
+    width: 50%;
+    display: inline-block;
+}
+/* 账号 密码  */
+.wrap {
+    max-width: 759px;
+    height: 400px;
+    margin: 0 auto;
+    padding: 0 20px 20px 20px;
+}
+#username_login{
+    width: 100%;
+}
+.input_container {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    line-height:48px;
+    overflow: hidden;
+    background-color: #fff;
+    border-bottom: 1px solid #d7d7d7;
+}
+.input_container div{
+    position: absolute;
+    width: 60px;
+    display: inline-block;
+    font-family: PingFang-SC-Regular;
+    text-align: left;
+}
+.username {
+    width: 100%;
+    padding: 0 3px 0 60px;
+}
+.password {
+    width: 100%;
+    padding: 0 3px 0 60px;
+}
+input {
+    border-radius: 0;
+    border: 0;
+    display: inline-block;
+    font-family: PingFang-SC-Regular;
+}
+.btn, input {
+    font-size: 14px;
+    outline: 0;
+}
+.checkbtn{
+    height: 18px;
+    /* background-color: blue; */
+    position: relative;
+    top:15px;
+    right: 0px;
+}
+.checkbtn img{
+    width: 22px;
+    height: 25px;
+    float: right;
+}
+.icon-div1{
+    width: 22px;
+    height: 28px;
+    /* background-color: blue; */
+    position: relative;
+    top:15px;
+    right:0;
+}
+.icon1{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    float: right;
+    /* display: none; */
+}
+.icon2{
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    float: right;
+    position: relative;
+    right:30px;
+    display: none;
+}
+/* 登录按钮 */
+.btn {
+    height: 45px;
+    line-height: 46px;
+    background-color: #eee;
+    border-radius: 2px;
+    border: 0;
+    color: #848689;
+    display: block;
+    text-decoration: none;
+    width: 100%;
+    margin-top: 30px;
+}
+.quick-nav {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+}
+.quick-nav a img:first-child{
+    width: 25px;
+    height: 25px;
+}
+.quick-nav a img:last-child{
+    width: 20px;
+    height: 20px;
+}
+.quick-nav a{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    color: #333;
+    height: 22px;
+    line-height: 22px;
+    font-family: PingFang-SC-Regular;
+}
+.quick-nav a span{
+    position: relative;
+    top:-8px;
+}
+.quick-nav a:first-child {
+    float: left;
+}
+.quick-nav a:last-child {
+    float: right;
+}
+.quick-login {
+    margin-top: 145px;
+    height: 85px;
+    position: relative;
+    padding: 24.5px 10px 0 10px;
+    border-top: 1px solid #d7d7d7;
+}
+.quick-login h4 {
+    position: absolute;
+    top: -34px;
+    left: 50%;
+    background-color: white;
+    padding: 5px 15px;
+    color: #bfbfbf;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+.icon-qq{
+    position: relative;
+    top: -70px;
+    width: 25px;
+}
+.agreement-tips {
+    position: relative;
+    top: -40px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+}
+.agreement-tips a{
+    color: #333;
+}
